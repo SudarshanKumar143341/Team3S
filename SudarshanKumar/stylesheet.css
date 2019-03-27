@@ -1,0 +1,95 @@
+
+/* Global CSS*/
+*{
+  margin:10px 10px;
+  padding:10px;
+  border-radius: 20px;
+  text-align: left;
+  font-family: cursive;
+  font-weight: bolder;
+  color:black;
+}
+
+/* CSS for background  */
+body{
+  background-image:url("hometown.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* CSS for form */
+#registration{
+  background: Gainsboro;
+  width: 600px;
+  color: black;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  text-align: center;
+  color:slateblue;
+  background: silver;
+
+}
+
+p{
+  font-style: italic;
+  font-size:15px;
+  color: red;
+}
+
+/* CSS for all the labels */
+label{
+  text-align:left;
+  color: black;
+}
+
+ /* CSS for input box */
+input{
+  width: 560px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-weight: 100;
+  background:gainsboro;
+}
+
+/* CSS for country code of phone */
+#phone{
+  width: 90px;
+  font-weight: 100;
+  border: 2px solid grey;
+}
+
+/* CSS for phone number input */
+#phonenum{
+  width: 439px;
+}
+
+/* CSS for check box */
+#agree{
+  width: 30px;
+}
+
+ /* CSS for register button */
+#register{
+  width: 560px;
+  border: 2px ;
+  border-radius: 10px;
+  background-color:limegreen;
+  text-align: center;
+  font-size:20px;
+}
+
+ /* CSS to focus the selected input and hover */
+input:focus,input:hover{
+  background:white;
+  color:black;
+}
+
+/* CSS for change in border of valid input */
+input:valid, #phonemun:valid{
+  border:2px solid green;
+}
