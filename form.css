@@ -1,14 +1,6 @@
 
 /* Global CSS*/
-*{
-  margin:10px 10px;
-  padding:10px;
-  border-radius: 20px;
-  text-align: left;
-  font-family: cursive;
-  font-weight: bolder;
-  color:black;
-}
+*
 
 /* CSS for background  */
 body{
