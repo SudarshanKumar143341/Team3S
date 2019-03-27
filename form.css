@@ -91,5 +91,5 @@ input:focus,input:hover{
 
 /* CSS for change in border of valid input */
 input:valid, #phonemun:valid{
-  border:2px solid green;
+  border:2px solid red;
 }
