@@ -1,1 +1,46 @@
-jhg
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width">
+ </head>
+  <body>
+    <h1>Registration Form</h1>
+    <div class="register">
+    <form method ="post" id = "register" action="jpt">
+<!--first name-->
+      <label>First Name : </label><br>
+      <input type="text" name="fname" id="fname" placeholder="First name (Middle name)" required><br><br>
+<!--last name-->
+      <label>Last Name : </label><br>
+      <input type="text" name="lname" id="lname" placeholder="Last name" required><br><br>
+<!--address-->
+      <label>Address : </label><br>
+      <input type="text" name="address" id="add" placeholder="example:- street name, state, country" required><br><br>
+<!--Email-->
+      <label>Email : </label><br>
+      <input type="email" name="email" id="email" placeholder="example:-john123@gmail.com" required><br><br>
+<!--telephone number-->
+      <label>Telephone number : </label><br>
+      <select id="ph">
+       <option>+61</option>
+       <option>+64</option>
+       <option>+44</option>
+       <option>+977</option>
+       <option>+49</option>
+       <option>+64</option>
+       <option>+47</option>
+      </select>
+      <input type="number" name="phnum" id="num"  placeholder="phone number" required ><br><br>
+<!--birthdate-->
+      <label>Birth Date : </label><br>
+      <input type="date" name="date" id="bdate" required><br><br>
+<!--radiobutton-->
+      <input type="radio" id="agree" > I confirm that the information given in this form is true, complete and accurate.<br><br>
+<!--submit-->
+    <input type="submit" id="sub">
+    </form>
+    </div>
+  </body>
+</html>
