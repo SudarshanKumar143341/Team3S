@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <link rel="stylesheet" href="stylesheet.css">
+		<title>SKB:Form</title>
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+	<body>
+
+		<!--We are inserting form in this step.-->
+
+    <form  id="registration" method="post" action="/nowhere.php" autocomplete="on" name="RegistrationForm" target="_self" >
+      <h1> Registration Form </h1>
+      <p>Fields with * must be filled.</p>
+      <label>First Name* </label><br>
+      <input id="fname" type="text" name="firstname" placeholder="Please enter your name *" data-error="You umust enter Name."  required autofocus>
+      <br>
+      <label>Middle Name </label><br>
+      <input id="mname" type="text" name="middlename" placeholder="Please enter your Middle name (Optional)">
+      <br>
+      <label>Last Name*</label><br>
+      <input id="lname" type="text" name="lastname" placeholder="Please enter your last name *" data-error="You must enter Last Name." required>
+      <br>
+      <label>Address*</label><br>
+      <input id="addr" type="text" name="address" placeholder="Please enter your address *" data-error="You must enter address." required>
+      <br>
+      <label>E-mail*</label><br>
+      <input id="elecmail" type="email" name="emailaddress" placeholder="Please enter your email *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" data-error="You must enter your email address." required>
+      <br>
+      <label>Telephone Number</label><br>
+      <select id="phone">
+       <option>+61</option>
+       </select>
+      <input id="phonenum" type="tel" name="mobilenumber" placeholder="0-0000-0000" minlength="11" maxlength="11" pattern="[0-9}{1}-[0-9]{4}-{0-9]{4}" data-error="Phone number must contain 8 digits." required>
+      <br>
+      <label>Birthdate*</label><br>
+      <input id="dob" type="date" name="mm/dd/yyyy"  required>
+      <br>
+      <input id="agree" type="checkbox" name="agreement" value="Agrees" required>I confirm I'm not a robot. All the information provided are correct.<br>
+      <input id="register" type="submit" value="Register">
+      </form>
+
+	  </body>
+</html>
