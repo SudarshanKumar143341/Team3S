@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Reg Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <h1>Register here</h1>
+  <form>
+			<div content="form-content">
+				<label> Name:</label><br>
+				<input type="text" placeholder="Full name" name="Fullname" required="" >
+			</div>
+			<div content="form-content">
+				<label > Address:</label><br>
+				<input   type="text" placeholder="Address" name="adress" required="" >
+			</div>
+			<div content="form-content">
+				<label> E-mail: </label><br>
+				<input  type="email" placeholder="name@gmail.com" name="email" required="" >
+			</div>
+			<div content="form-content">
+				<label > Telephone Number: </label><br>
+					<select>
+						<option>+61(AUS)</option>
+						<option>+1(USA)</option>
+						<option>+91(IND)</option>
+						<option>+977(NEP)</option>
 
+					</select>
+				<input type="Number" placeholder="Number" required=""><br>
+			</div>
+			<div content="form-contentt">
+				<label> Birthdate: </label><br>
+			<input type="Date" required="" >
+		</div>
+			<div>
+			<input type="Submit">
+<input type="reset" value="Reset">
+		</div>
+</form>
+<p><input id="verify" type="checkbox" name="verify" value="verifies">I agree all the statement provided above is correct</p>
+</body>

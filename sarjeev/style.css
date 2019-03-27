@@ -1,0 +1,63 @@
+
+
+  input[type=text], input[type=Number], input[type=date], input[type=email] {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #C0B283;
+  font-size: 18px;
+  font-style: oblique;
+
+}
+
+body{
+  background-image:url(photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+form{
+  margin: 100PX;
+  width: 500px;
+  align: left;
+  margin-left: 850px;
+
+}
+
+
+h1{
+   margin-left:300px;
+   text-align: center;
+   font-family:"times new roman";
+   font-size: 40px;
+   color: white;
+
+}
+
+
+
+input[type=submit] , input[type=reset] {
+    width: 30%;
+    font-size: 18px;
+    background-color: #373737;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 10px;
+    cursor: pointer;
+}
+
+p{
+  font-size: 25px;
+  color:black;
+  text-align: center;
+  margin-left: 350;
+}
+
+label{
+  color: WHITE;
+  font-family:times;
+  font-size: 22px;
+
+}
