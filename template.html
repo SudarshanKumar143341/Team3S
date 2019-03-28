@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <link rel="stylesheet" href="form.css">
+		<title>Team3S|Form</title>
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+	<body>
+
+		<!--We are inserting form in this step.-->
+
+    <form  id="registration" method="post" action="/nowhere.php" autocomplete="on" name="RegistrationForm" target="_self" >
+      <h1> Registration Form </h1>
+      <p>Fields with * must be filled.</p>
+      <label>Title* </label><label id="labfname">First Name* </label><br>
+      <select id="title">
+       <option>Mr</option>
+       <option>Mrs</option>
+       <option>Ms</option>
+       <option>Miss</option>
+       <option>Sir</option>
+       <option>Dr</option>
+       <option>Er</option>
+       <option>Lady</option>
+       <option>Lord</option>
+       <option>Others</option>
+       </select>
+      <input id="fname" type="text" name="firstname" placeholder="Please enter your name *"  required autofocus>
+      <br>
+      <label>Middle Name </label><label id="lablname">Last Name*</label><br>
+      <input id="mname" type="text" name="middlename" placeholder="Please enter your Middle name (Optional)">
+      <input id="lname" type="text" name="lastname" placeholder="Please enter your last name *" required>
+      <br>
+      <label>Country*</label><label id="labaddr">Address*</label><br>
+      <select id="country">
+       <option>Nepal</option>
+       <option>Australia</option>
+       <option>India</option>
+       <option>USA</option>
+       <option>New Zealand</option>
+       <option>Belgium</option>
+       <option>America</option>
+       <option>UK</option>
+       <option>Britain</option>
+       <option>England</option>
+       </select>
+      <input id="addr" type="text" name="address" placeholder="Please enter your address *" required>
+      <br>
+      <label>E-mail*</label><br>
+      <input id="email" type="email" name="emailaddress" placeholder="Please enter your email *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+      <br>
+
+      <label>Telephone Number</label><br>
+      <select id="phone">
+       <option>+61</option>
+       </select>
+      <input id="phonenum" type="tel" name="mobilenumber" placeholder="0-0000-0000" minlength="11" maxlength="11" pattern="[0-9}{1}-[0-9]{4}-{0-9]{4}" required>
+      <br>
+      <label>ID Type</label>             <label id="labidnum">ID Number</label><br>
+      <select id="id_type">
+       <option>Passport</option>
+       <option>Driver's Licence</option>
+       <option>Birth Certificate</option>
+       <option>Medicare</option>
+       <option>Age certificate</option>
+       </select>
+       <input id="id_num" type="number" name="idnumber" placeholder="ID NUmber *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  required>
+      <br><label>Birthdate*</label><label id="labgender">Gender</label><br>
+      <input id="dob" type="date" name="mm/dd/yyyy"  required>
+			<select id="gender">
+       <option>Male</option>
+       <option>Female</option>
+       <option>Not Specified</option>
+       </select>
+      <br>
+      <label>Password*</label><br>
+      <input id="password" type="password" name="pw"  required><br>
+      <label>Bio</label><br>
+      <textarea name="bio" type="text" placeholder="Not more than 250characters" maxlength=250 rows=10 cols=50></textarea><br>
+      <input id="agree" type="checkbox" name="agreement" value="Agrees" required>I confirm I'm not a robot. All the information provided are correct.<br>
+      <input id="register" type="submit" value="Register">
+      </form>
+
+	  </body>
+</html>
