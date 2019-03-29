@@ -30,8 +30,6 @@ body{
 
 h1{
   text-align: center;
-  color:white;
-
 }
 
 p{
@@ -117,7 +115,7 @@ input,textarea{
   width: 560px;
   border: 2px ;
   border-radius: 10px;
-  background-color:aqua;
+  background-color:mediumseagreen;
   text-align: center;
   font-size:20px;
   font-weight: bolder;
